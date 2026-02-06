@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hinge | Designed to be Deleted</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Styles -->
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+
+<body>
+    <div id="app-container">
+        <!-- Main Content (Discovery, Matches, Profile) -->
+        <main id="main-content" class="content-area">
+            <!-- Content will be injected here -->
+        </main>
+
+        <!-- Notification / Like Flow Overlay -->
+        <div id="overlay-container"></div>
+
+        <!-- Navigation -->
+        <nav class="bottom-nav">
+            <button class="nav-item active" data-view="discovery">
+                <i class='bx bx-search'></i>
+            </button>
+            <button class="nav-item" data-view="standouts">
+                <i class='bx bx-star'></i>
+            </button>
+            <button class="nav-item" data-view="likes">
+                <i class='bx bx-heart'></i>
+            </button>
+            <button class="nav-item" data-view="matches">
+                <i class='bx bx-message-square-dots'></i>
+            </button>
+            <button class="nav-item" data-view="profile">
+                <i class='bx bx-user'></i>
+            </button>
+        </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="src/js/main.js"></script>
+</body>
+
+</html>
